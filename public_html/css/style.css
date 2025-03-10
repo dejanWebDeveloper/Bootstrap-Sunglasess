@@ -1,0 +1,199 @@
+html{
+    font-size: 10px;
+    background-color: black;
+}
+body{
+    font-size: 1.8rem;
+    font-family: "Urbanist", serif;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 1);
+    line-height: 3rem;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1116px;
+}
+h2{
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 6rem;
+}
+header{
+    padding: 24px 0;
+    margin-bottom: 0px;
+}
+.nav-link{
+    color: rgba(0, 0, 0, 1);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.nav-link:hover{
+    color: rgba(0, 0, 0, 1);
+}
+.lead{
+    background-image: url(../image/lead-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem 0;
+}
+.lead-title{
+    padding: 26.1rem 0;
+}
+
+.lead-title h1{
+    font-size: 8rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    line-height: 8.5rem;
+    width: 45.1rem;
+    margin-bottom: 0;
+
+}
+.about-us-text{
+    padding: 181px 0;
+}
+.about-us-text h2{
+    margin-bottom: 2rem;
+}
+
+.about-image{
+    padding: 14.7rem 0;
+}
+.services{
+    padding: 9.6rem 0 11.4rem;
+}
+.services h2{
+    margin-bottom: 4.6rem;
+}
+.services-item{
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 4.5rem 3.2rem;
+}
+.services-item h3{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 6rem;
+}
+.services-item p{
+    padding: 0 3rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.achivements{
+    background-image: linear-gradient(to right, rgba(1, 49, 87, 0.7), rgba(1, 49, 87, 0.7)), url(../image/achivement-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 14.3rem 2.1rem 16.6rem;
+    background-position: center;
+}
+.achivements-data p{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 9%;
+    text-transform: uppercase;
+}
+.achivements-data span{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 7.4rem;
+}
+.products{
+    padding: 9.6rem 0 10.2rem;
+}
+.products h2{
+    margin-bottom: 4.1rem;
+}
+.product-hide-text{
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 2rem 2.5rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-bottom: 0;
+}
+.product-item h4{
+    font-weight: 700;
+    line-height: 2rem;
+}
+.product-item img{
+    width: 100%;
+}
+.product-item p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: 9%;
+}
+.product-item figure{
+    overflow: hidden;
+}
+.product-item figure img {
+    transition: all .3s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+}
+
+.product-item:hover figure img {
+    transform: scale(1.2);
+}
+/*carousel style*/
+.owl-carousel .owl-nav button{
+    position: absolute;
+    top: 40%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    border: 1px solid black;
+    background-color: white;
+    width: 30px;
+    left: -25px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    right: -25px;
+    border: 1px solid black;
+    background-color: white;
+    width: 30px;
+}
+.contact{
+    padding: 9.6rem 0 26rem;
+}
+.contact h2{
+    margin-bottom: 4rem;
+}
+.form-group{
+    margin-bottom: 3.3rem;
+}
+.form-group textarea{
+    resize: none;
+}
+.form-control{
+    font-size: 1.6rem;
+}
+.btn-dark{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 9%;
+    background-color: black;
+}
+.contact-info{
+    padding-left: 10rem;
+}
+.contact-info p{
+    margin-bottom: 1.9rem;
+}
+footer{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 3.7rem 0;
+}
